@@ -1,0 +1,8 @@
+includedir=/Users/luxiaotong/code/go-shentong/shentong/include/
+libdir=/Users/luxiaotong/code/go-shentong/shentong/lib/linux64/
+
+Name: aci
+Description: ShenTong Database Client
+Version: 7.0.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -laci

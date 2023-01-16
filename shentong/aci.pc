@@ -1,0 +1,8 @@
+includedir=/app/shentong/include/
+libdir=/app/shentong/lib/linux64/
+
+Name: aci
+Description: ShenTong Database Client
+Version: 7.0.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -laci
