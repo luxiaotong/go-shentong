@@ -1,5 +1,6 @@
-includedir=/app/shentong/include/
-libdir=/app/shentong/lib/linux64/
+prefix=/app
+includedir=${prefix}/shentong/include/
+libdir=${prefix}/shentong/lib/linux64/
 
 Name: aci
 Description: ShenTong Database Client
