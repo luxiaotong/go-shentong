@@ -1,4 +1,5 @@
-//go:build linux
+//go:build shentong
+// +build shentong
 
 package db
 

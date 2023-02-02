@@ -5,7 +5,7 @@
 docker run -it --rm -v $PWD:/app -w /app \
 -e PKG_CONFIG_PATH=/app/shentong \
 -e LD_LIBRARY_PATH=/app/shentong/lib/linux64/ \
-golang:latest go run main.go 
+golang:latest go run -tags=shentong main.go 
 
 
 ## References
